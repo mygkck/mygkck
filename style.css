@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.mw {
+    max-width: 1300px;
+}
+
+.ma {
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.ilk_kisim img {
+    height: 500px;
+    padding-right: 100px;
+}
+
+.ilk_kisim {
+    margin-top: 100px;
+}
+
+.ilk_kisim p {
+    font-size: 26px;
+
+}
+
+.ilk_kisim .upp {
+    margin-top: 20px;
+}
+
+.ilk_kisim .topweb {
+    font-size: 16px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.tekstack {
+    color: #f8830f;
+}
+
+.icon-p {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icons {
+    margin: 10px;
+}
+
+.special_icons_div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8830f;
+}
+
+header {
+    background-color: gray;
+}
+
+header>div {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div>div {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: #f8830f;
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 35px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.ilk_kisim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilk_kisim img {
+    margin-right: 30px;
+}
+
+.ilk_kisim h2 {
+    font-size: 50px;
+}
+
+.ikinci_kisim {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ikinci_kisim>div {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.ikinci_kisim .special_icons_div {
+    color: #fff;
+}
+
+.ikinci_kisim p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ucuncu_kisim .nemo {
+    margin: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.ucuncu_kisim img {
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.ucuncu_kisim {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ucuncu_kisim .topweb {
+    margin-top: 10px;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.ucuncu_kisim .ucparag {
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.ucuncu_kisim>div {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.ucuncu_kisim>div>div {
+    max-width: 500px;
+}
+
+.ucuncu_kisim img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+}
+
+.dorduncu_kisim {
+    margin-top: 70px;
+}
+
+.dorduncu_kisim p {
+    margin-top: 30px;
+    color: grey;
+}
+
+.dorduncu_kisim>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dorduncu_kisim .dorduncu_li {
+    list-style: none;
+    display: flex;
+    margin: 80px 0;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.dorduncu_kisim .dorduncu_li li {
+    margin-right: 100px;
+    color: black;
+}
+
+.dorduncu_kisim .cardlist {
+    color: black;
+    margin: 30px 0;
+    margin-left: -20px;
+}
+
+.cardlist p {
+    color: black;
+}
+.cardlist p a{
+    color: #f8830f;
+}
+.dorduncu_kisim>div>div {
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+}
+
+.dorduncu_kisim p .quotes {
+    margin-right: 8px;
+}
+
+.dorduncu_kisim p {
+    margin-left: -50px;
+}
+
+.dorduncu_kisim p .quotee {
+    margin-left: 8px;
+    position: absolute;
+}
+
+.cardlist .app {
+    margin: 30px 0 30px 25px;
+    color: black;
+    text-align: left;
+}
+
+.dorduncu_kisim>div>div>img {
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+.dorduncu_kisim>div>div>div>p {
+    margin: 2px;
+    margin-left: 30px;
+}
+
+.dk_devam {
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dk_devam img {
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.dk_devam h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: -20px;
+
+}
+
+.dk_devam p {
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+.son {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.son>div>div {
+    margin: 40px;
+}
+
+.son>div>div>div {
+    display: flex;
+    justify-content: left;
+}
+
+.son .special_icons_div {
+    margin: 20px;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.lefticons {
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f8830f;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+.ikinci_kisim .special_icons_div {
+    border-radius: 5px;
+    margin: 50px;
+}
+
+
+footer > :first-child {
+    position:absolute;
+}
+
+footer > :first-child img {
+    padding: 0;
+    margin: 0;
+}
+
+
+.son-class {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.846);
+}
+
+.son-class > :first-child {
+    max-width: 900px;
+}
+.text-center{
+    text-align: center;
+}

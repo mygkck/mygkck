@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-orange{
+    background-color: darkorange;
+}
+.text-orange{
+    color: darkorange;
+}
+
+nav a{
+    color: white !important;
+}
+header h1{
+        font-size: 60px;
+}
+header span{
+  color: rgb(218, 120, 0);
+}
+.items{
+    background: #ffffff none repeat scroll 0 0;
+
+    box-shadow: 0 0 10px #e4e4e4;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+}
+footer{
+    position: relative;
+    background: url(../img/world-map.png) #222222;
+    background-repeat: no-repeat;
+    background-position: right 21% center;
+    background-size: 42%;
+    height: 400px;
+    padding:  80px 0;
+}
